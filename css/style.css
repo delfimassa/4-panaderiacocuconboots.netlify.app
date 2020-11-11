@@ -1,0 +1,4 @@
+.filtro:hover{
+    filter: opacity(50%);
+    transition: 100ms;
+}

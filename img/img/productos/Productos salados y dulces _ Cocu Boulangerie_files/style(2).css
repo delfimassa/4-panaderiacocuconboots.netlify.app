@@ -1,0 +1,169 @@
+/*
+Theme Name: liesel - Child
+Author: Dahz
+Author URI: http://dahz.daffyhazan.com/liesel
+Description: liesel Theme Designed by <a href="http://www.daffyhazan.com">Dahz</a>.
+Version: 1.2.7
+Template: liesel
+*/
+@import url("../liesel/includes/css/layout.css");
+@import url("../liesel/includes/css/public/grand.css");
+
+/* GLOBAL */
+
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic|Quattrocento:400,700|Philosopher:400,700,400italic,700italic|Amatic+SC:400,700);
+
+.df-page-header {border: none; background: #F7F7F7;}
+.df-mobile-toogle-nav li i {color: #fff;}
+.line {width: 20px;}
+footer#footer-colophon .df-navi li a:hover {color: #000;}
+i.fa.fa-angle-up {
+background-color: rgba(223, 223, 223, 0.4);
+width: 60px;
+text-align: center;
+height: 60px;
+vertical-align: middle;
+display: table-cell;
+}
+
+.df-float-menu .site-branding{width:120px; padding-top: 10px;}
+.df-sitename{padding-top:10px !important}
+.df-sitename img{width:120px !important}
+.df-float-menu{padding-bottom:0 !important}
+
+.font_produits{font-size:30px; color:#fff !important;}
+.div.df-navibar, .df-float-menu{padding-bottom:10px !important}
+.main-navigation a{padding:20px 10px !important;}
+
+h1{font-family:'Philosopher'; font-weight:bold; font-size: 3em;}
+h2{font-family:'Philosopher'; font-weight:bold; font-size: 3em;}
+h3{font-family: 'Quattrocento Sans', serif;     font-size: 1.563em;t}
+h4{font-family:'Philosopher' !important; font-weight:bold; color:#fff !important; font-size: 2.5em; line-height: 0.9em !important;}
+h4 a{font-family:'Philosopher';font-weight:bold; color:#fff !important}
+h4:hover{text-decoration:underline;}
+h5{font-family:'Quattrocento Sans';}
+
+.mask{padding:0px !important;}
+.df-post-title{pointer-events: none !important; cursor: default !important;font-family:'Philosopher' !important; font-size: 1.4em !important;}
+.df-category-portfolio{pointer-events: none !important; cursor: default !important;}
+.df-sitename{padding-top:12px !important;}
+.df-porto-style1 .portfolio .df-category-portfolio.df-grand-link a{font-size:1.1em!important;}
+
+.footer-primary-widgets h3{font-family:'Quattrocento Sans'; color: white; text-transform: uppercase;}
+.footer-primary-widgets a{text-decoration:underline}
+.form{margin-bottom:-37px}
+#u_0_3{color:#fff !important;}
+
+.footer-primary-widgets .df_container-fluid .df_row-fluid{    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(238, 238, 238);
+    margin-top: 5px;
+    padding-top: 20px;}
+#footer-colophon{margin-top:-25px}
+
+.df-button-square{border-color:#ae9364; outline:none !important;}
+.df-button-square:focus{border-color:#ae9364; outline:none !important;}
+.df-button-square:hover{border-color:#ae9364; outline:none !important;}
+
+/* HOME */
+
+	p{margin-bottom:1em;}
+	.producto-del-mes_nombre-producto{text-transform:uppercase;}
+
+	/* PRODUITS*/
+	.box_produits{height:270px}
+	.box_produits div.vc_column-inner {min-height: 100% !important;}
+	.produits{width: 100% !important; height:100%; margin-left: 0px; background: rgba(0, 0, 0, 0); -webkit-transition: background 1s; transition: background 1s;}
+	.produits{padding: 40px 15px 8px;}
+	.produits:hover{background: rgba(0, 0, 0, 0.5) !important; height: 270px;}
+
+	.vc_separator.vc_separator_align_center h4 {padding: 0 .3em;}
+	.pain{margin-bottom:-20px !important;}
+	.viennoiseries:hover{text-decoration:none !important; color:#fff !important;}
+	.viennoiseries:active{text-decoration:none !important; color:#fff !important;}
+	.viennoiseries:link{text-decoration:none !important; color:#fff !important;}
+	.viennoiseries{color: #fff; font-size: 20px; top: 5px;position: relative;}
+	h4 a{color:#fff !important;}
+	h4 a:hover{color:#fff !important;}
+	.font_produits{font-size:30px; color:#fff !important;}
+
+	.bold-type-product{font-weight:bold;}
+
+	/* responsive */
+		@media only screen and (min-width:768px){
+			.box_produits{width: 33.333333% !important; height:270px; padding-left:1.28205%; padding-right:1.28205%;}
+		}
+		@media only screen and (min-width:768px) and (max-width:999px){    
+			.font_produits{font-size:21px !important}
+			.viennoiseries{top: 7px;}
+			.space_pain_bottom{height:81px !important;}
+		}
+		@media only screen and (max-width:767px){
+			.box_produits{width:100% !important; height:270px; padding:0px !important;}
+			.produits{padding-top:25px !important;}
+		}
+
+	/* BRUNCH + PLATO SEMANA + PICKUP */
+	.brunch, .plato_semana{box-shadow: 1000px 1000px rgba(0,0,0,0.28) inset;}
+	.brunch{height:545px;}
+	.plato_semana{height:274px;}
+	.retrait-boutique{height:250px}
+	.retrait-boutique h2 {margin-top: 15px !important;}
+
+	/* responsive */
+		@media only screen and (max-width:1050px){
+			h2{font-size:32px !important; margin-top:40px !important;}
+			h5{font-size:18px !important; line-height:30px !important;}
+		}
+
+		@media only screen and (max-width:900px){
+			h2{font-size:30px !important; margin-top:40px !important;}
+		}
+
+		@media only screen and (max-width:850px){
+			h2{font-size:28px !important; margin-top:40px !important;}
+			h5{font-size:16px !important; line-height:25px !important;}
+		}
+
+		@media only screen and (max-width:767px){
+			h2{font-size:30px !important; margin-top:40px !important;}
+			.brunch, .plato_semana, .retrait-boutique{height:100%}
+		}
+
+		@media only screen and (max-width:510px){
+			h2{font-size:25px !important; margin-top:40px !important;}
+			h5{font-size:14px !important; line-height:25px !important;}
+		}
+
+	/*FORMULES*/
+	.formule_box{font-family:'Amatic SC'; font-size: 30px; text-align:center;}
+
+	.ult_modal-content{
+	background:url(http://cocu.com.ar/wp-content/uploads/2017/04/blackboard_retouche.png) no-repeat !important; background-size: 100% 100% !important; box-shadow:0px 0px 7px #1E1E1E;}
+	.ult_modal-header{background:none; border:none;}
+	.ult_modal-body{background:none; margin-bottom:50px;}
+	h3.ult_modal-title{display:block !important; font-family:'Amatic SC'; font-size: 50px; font-weight:bold; 
+	color:#fff; text-align:center !important; border-bottom:none !important; margin-top:50px;}
+	.overlay-show, .ult-align-center{
+	font-family: "Amatic SC",cursive;
+	font-weight: bold;
+	font-size: 52px;
+	display:block;
+	text-align: center;
+	margin-top: 85px;}
+
+	/* responsive */
+		@media(min-width:768px){
+			.formules_box_size{width: 100%; height:270px;}
+		}
+		@media(max-width:767px){
+			.formules_box_size{width:33,3333%; height:270px;}
+		}
+
+/* HISTOIRE */
+	.image_illu{vertical-align:middle;}
+	.histoire{margin-top: 0 !important;}
+	
+/* PRODUITS */
+	#comments{display:none;}
+	h4, h4 a{font-family: 'Philosopher' !important;}
